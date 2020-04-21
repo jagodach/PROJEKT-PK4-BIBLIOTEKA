@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\LibraryItems">
+      <UniqueIdentifier>{bea60965-aac1-4b5a-9d4e-b730aae5dab3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Lending">
+      <UniqueIdentifier>{8f0ccfe9-19f4-4eb7-b980-9a27d54ec559}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LibraryItems">
+      <UniqueIdentifier>{77bda83b-1e4c-4269-9a33-bc398bcb705b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lending">
+      <UniqueIdentifier>{52012405-568f-43dc-8334-e71ca96369e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Helpers">
+      <UniqueIdentifier>{9b02406d-51b8-4d4e-9e9d-4f8faf06f179}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Book.h">
+      <Filter>Header Files\LibraryItems</Filter>
+    </ClInclude>
+    <ClInclude Include="Author.h">
+      <Filter>Header Files\LibraryItems</Filter>
+    </ClInclude>
+    <ClInclude Include="EBook.h">
+      <Filter>Header Files\LibraryItems</Filter>
+    </ClInclude>
+    <ClInclude Include="LendRecord.h">
+      <Filter>Header Files\Lending</Filter>
+    </ClInclude>
+    <ClInclude Include="LibraryManager.h">
+      <Filter>Header Files\Lending</Filter>
+    </ClInclude>
+    <ClInclude Include="LibraryItem.h">
+      <Filter>Header Files\LibraryItems</Filter>
+    </ClInclude>
+    <ClInclude Include="FileRecord.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers.h">
+      <Filter>Header Files\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Structs.h">
+      <Filter>Header Files\Helpers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LibrarySystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Helpers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Book.cpp">
+      <Filter>Source Files\LibraryItems</Filter>
+    </ClCompile>
+    <ClCompile Include="Author.cpp">
+      <Filter>Source Files\LibraryItems</Filter>
+    </ClCompile>
+    <ClCompile Include="EBook.cpp">
+      <Filter>Source Files\LibraryItems</Filter>
+    </ClCompile>
+    <ClCompile Include="LibraryItem.cpp">
+      <Filter>Source Files\LibraryItems</Filter>
+    </ClCompile>
+    <ClCompile Include="LendRecord.cpp">
+      <Filter>Source Files\Lending</Filter>
+    </ClCompile>
+    <ClCompile Include="LibraryManager.cpp">
+      <Filter>Source Files\Lending</Filter>
+    </ClCompile>
+    <ClCompile Include="FileRecord.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
