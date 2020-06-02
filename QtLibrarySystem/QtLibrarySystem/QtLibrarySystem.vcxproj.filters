@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Header Files\Helpers">
+      <UniqueIdentifier>{50999683-0706-43e2-96d0-aeb105969602}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Lending">
+      <UniqueIdentifier>{4c6ab709-2c87-45d4-9685-6fd3c67fb8fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\LibraryItems">
+      <UniqueIdentifier>{971a19a3-c96d-41bf-a580-5f56b1f9ae6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Helpers">
+      <UniqueIdentifier>{e1b34f16-89a9-4ffe-bd69-8cd59a656bfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lending">
+      <UniqueIdentifier>{0b37bb92-7d80-4583-9994-d83b95ceb80b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LibraryItems">
+      <UniqueIdentifier>{bc9b934a-8899-418d-b92e-6aa0c6bf26d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Views">
+      <UniqueIdentifier>{2bf17e49-6412-469f-8abe-bf33b03680e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Views">
+      <UniqueIdentifier>{33573d8b-32bc-4c12-84ee-9fc8192d4188}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="QtLibrarySystem.ui">
+      <Filter>Resource Files</Filter>
+    </QtUic>
+    <QtUic Include="QtLoginWIndow.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="QtAddUserWindow.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="QtAddAuthorWindow.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="QtAddItemWindow.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibrarySystem\User.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibrarySystem\Helpers.cpp">
+      <Filter>Source Files\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibrarySystem\LendRecord.cpp">
+      <Filter>Source Files\Lending</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibrarySystem\LibraryManager.cpp">
+      <Filter>Source Files\Lending</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibrarySystem\Author.cpp">
+      <Filter>Source Files\LibraryItems</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibrarySystem\Book.cpp">
+      <Filter>Source Files\LibraryItems</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibrarySystem\EBook.cpp">
+      <Filter>Source Files\LibraryItems</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibrarySystem\LibraryItem.cpp">
+      <Filter>Source Files\LibraryItems</Filter>
+    </ClCompile>
+    <ClCompile Include="QtLibrarySystem.cpp">
+      <Filter>Source Files\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="QtLoginWIndow.cpp">
+      <Filter>Source Files\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="QtAddUserWindow.cpp">
+      <Filter>Source Files\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="QtAddAuthorWindow.cpp">
+      <Filter>Source Files\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="QtAddItemWindow.cpp">
+      <Filter>Source Files\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="QtAddWindowBase.cpp">
+      <Filter>Source Files\Views</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="QtLibrarySystem.qrc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\LibrarySystem\User.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibrarySystem\FileRecord.h">
+      <Filter>Header Files\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibrarySystem\Helpers.h">
+      <Filter>Header Files\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibrarySystem\Structs.h">
+      <Filter>Header Files\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibrarySystem\LendRecord.h">
+      <Filter>Header Files\Lending</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibrarySystem\Book.h">
+      <Filter>Header Files\LibraryItems</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibrarySystem\Author.h">
+      <Filter>Header Files\LibraryItems</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibrarySystem\EBook.h">
+      <Filter>Header Files\LibraryItems</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibrarySystem\LibraryManager.h">
+      <Filter>Header Files\Lending</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibrarySystem\LibraryItem.h">
+      <Filter>Header Files\LibraryItems</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="QtLoginWIndow.h">
+      <Filter>Header Files\Views</Filter>
+    </QtMoc>
+    <QtMoc Include="QtLibrarySystem.h">
+      <Filter>Header Files\Views</Filter>
+    </QtMoc>
+    <QtMoc Include="QtAddUserWindow.h">
+      <Filter>Header Files\Views</Filter>
+    </QtMoc>
+    <QtMoc Include="QtAddWindowBase.h">
+      <Filter>Header Files\Views</Filter>
+    </QtMoc>
+    <QtMoc Include="QtAddItemWindow.h">
+      <Filter>Header Files\Views</Filter>
+    </QtMoc>
+    <QtMoc Include="QtAddAuthorWindow.h">
+      <Filter>Header Files\Views</Filter>
+    </QtMoc>
+  </ItemGroup>
+</Project>

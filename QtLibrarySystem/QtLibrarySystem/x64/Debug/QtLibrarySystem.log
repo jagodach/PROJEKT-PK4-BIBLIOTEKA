@@ -1,0 +1,12 @@
+﻿  Reading Qt configuration (C:\Qt\5.14.2\msvc2017_64\bin\qmake.exe)
+  Author.cpp
+  Book.cpp
+  EBook.cpp
+  Helpers.cpp
+  LendRecord.cpp
+  LibraryItem.cpp
+  LibraryManager.cpp
+  User.cpp
+  moc_QtAddItemWindow.cpp
+  moc_QtLibrarySystem.cpp
+  QtLibrarySystem.vcxproj -> C:\Users\Jagoda\Desktop\LibrarySystem-master\QtLibrarySystem\x64\Debug\QtLibrarySystem.exe
